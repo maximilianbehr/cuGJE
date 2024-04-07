@@ -8,9 +8,9 @@
 **License:** The software is licensed under under MIT. See [`LICENSE`](LICENSE) for details.
 
 `cuGJE` is a `CUDA` library implementing Gauss-Jordan Eliminiation to solve the linear systems $AX=B$, 
-where $A$ is an $n$-x-$n$ nonsingular matrix and the right-hand side $B$ is of size $n$-x-$m$.
+where $A$ is an n-x-n nonsingular matrix and the right-hand side $B$ is of size n-x-m.
 
-*The implementation is just for educational purposes. Use `cuSolver` for a fast linear systems solver.*
+**The implementation is just for educational purposes. Use `cuSolver` for a fast linear systems solver.**
 
 `cuGJE` supports real and complex, single and double precision matrices.
 
@@ -42,7 +42,7 @@ int cugjez(int n, int m, cuDoubleComplex* A, cuDoubleComplex* RHS);
 ## Algorithm
 
 `cuGJE` implements Gauss-Jordan Eliminiation to solve the linear systems $AX=B$, 
-where $A$ is an $n$-x-$n$ nonsingular matrix and the right-hand side $B$ is of size $n$-x-$m$.
+where $A$ is an n-x-n nonsingular matrix and the right-hand side $B$ is of size n-x-m.
 
 ## Installation
 
