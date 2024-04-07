@@ -1,4 +1,4 @@
-# cuGJE - Matrix Sign Function Approximation using CUDA
+# cuGJE - Gauss-Jordan Elimination using CUDA
 
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  ![GitHub Release](https://img.shields.io/github/v/release/maximilianbehr/cuGJE)
