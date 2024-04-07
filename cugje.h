@@ -28,7 +28,10 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-
+int cugjes(int n, int m, float* A, float* RHS);
+int cugjed(int n, int m, double* A, double* RHS);
+int cugjec(int n, int m, cuComplex* A, cuComplex* RHS);
+int cugjez(int n, int m, cuDoubleComplex* A, cuDoubleComplex* RHS);
 #ifdef __cplusplus
 }
 #endif
